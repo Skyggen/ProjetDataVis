@@ -1,0 +1,38 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "live-server dist/",
+    "build": "webpack",
+    "watch": "webpack --mode=development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "backbone": "^1.4.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "handlebars-loader": "^1.7.1",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "backbone.localstorage": "^2.0.2",
+    "bootstrap": "^4.3.1",
+    "d3": "^5.9.2",
+    "handlebars": "^4.1.2",
+    "jquery": "^3.3.1",
+    "mainloop.js": "^1.0.4",
+    "popper.js": "^1.15.0",
+    "randomcolor": "^0.5.4"
+  }
+}

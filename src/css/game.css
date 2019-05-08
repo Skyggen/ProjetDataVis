@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {        
+    background: #eee;
+}
+
+#wrapper {
+    margin-top: 2rem;
+}
+
+#gameboard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    border: 3px solid black;
+    background: white;
+    width: 1000px;
+    height: 600px;
+}
