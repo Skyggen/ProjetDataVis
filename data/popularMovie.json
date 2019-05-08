@@ -1,5 +1,5 @@
 {
-    "_comment": "source des données https://api.themoviedb.org/3/movie/popular?language=fr&api_key=e0c090ad9289504f572875f449a5f944&callback=test",
+    "_comment": "source des données https://api.themoviedb.org/3/movie/popular?language=fr&api_key=e0c090ad9289504f572875f449a5f944",
     "results": [
       {
         "vote_count": 3560,
