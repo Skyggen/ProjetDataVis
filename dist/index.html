@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <title>TMDB movie & tv shows</title>
   <meta charset="utf-8">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -25,6 +26,7 @@
   </nav>
   <main class="container">
     <section id="datas" class="page page-active page-default">
+        <h1>Graphique of popularity movie or Tvshow and grade</h1>
       <div class="row">
         
         <div class="col-lg-9 mt-4">                  
@@ -42,9 +44,27 @@
         </div>
       </div>
     </section>
+    <section id="random" class="page page-active page-default">
+      <h1>Random movie or Tvshow</h1>
+        <div class="row">
+          
+          <div class="col-lg-9 mt-4">                  
+            <div class="btn-group btn-group-toggle" data-toggle="buttons" id="products-orders">
+              <label class="btn btn-primary active" data-order="asc" >
+                <input type="radio"  name="sortByMovie" autocomplete="off" checked> Films
+              </label>
+              <label class="btn btn-primary" data-order="desc">
+                <input type="radio" name="sortByTv" autocomplete="off"> Séries
+              </label>                
+            </div>                            
+            <div class="row mt-4" id="graphique">
+              <div id="notebook"></div>
+            </div>
+          </div>
+        </div>
+      </section>
   </main>
-  
-  <script src="https://d3js.org/d3.v5.min.js"></script>
+ <!-- <script src="https://d3js.org/d3.v5.min.js"></script>-->
   <script src="bundle.js"></script>
 </body>
 </html>

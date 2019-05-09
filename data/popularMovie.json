@@ -1,5 +1,4 @@
 {
-    "_comment": "source des données https://api.themoviedb.org/3/movie/popular?language=fr&api_key=e0c090ad9289504f572875f449a5f944",
     "results": [
       {
         "vote_count": 3560,
@@ -20,7 +19,7 @@
         "adult": false,
         "overview": "Après leur défaite face au Titan Thanos qui dans le film précédent s'est approprié toutes les pierres du Gant de l'infini , les Avengers et les Gardiens de la Galaxie ayant survécu à son claquement de doigts qui a pulvérisé « la moitié de toute forme de vie dans l'Univers », Captain America, Thor, Bruce Banner, Natasha Romanoff, War Machine, Tony Stark, Nébula et Rocket, vont essayer de trouver une solution pour ramener leurs coéquipiers disparus et vaincre Thanos en se faisant aider par Ronin alias Clint Barton, Captain Marvel et Ant-Man.",
         "release_date": "2019-04-24"
-      },
+      }, 
       {
         "vote_count": 4510,
         "id": 299537,

@@ -4,5 +4,6 @@
 //import "tp_collections";
 //import "tp_rest.js";
 //import "tp_game.js";
-
+import "../data/key"
 import "graph.js";
+import "random.js";

@@ -1,29 +1,13 @@
-//import series from '../data/popularTv.json'
+import series from '../data/popularTv.json'
 import films from '../data/popularMovie.json'
-
-d3 = require('d3')
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-var url = "https://api.themoviedb.org/3/movie/popular?language=fr&api_key=e0c090ad9289504f572875f449a5f944"
-
-function getJSON() {
-  var resp = [];
-  $.ajax({
-    url: url,
-    type: 'GET',
-    dataType: 'jsonp',
-    success : function(data) {
-      console.log(data);
-      resp.push(data) //put it in an array if you really want to
-      drawGraph2(films); //calling a function with your array
-    }
-  })
-}
 
 
-export function drawGraph2(films){
-  console.log("hello")
+drawGraph2();
+
+export function drawGraph2(){
   var margin = {top: 20, right: 0, bottom: 70, left: 80},
   width = 600 - margin.left - margin.right,
   height = 500 - margin.top - margin.bottom;
@@ -56,8 +40,8 @@ var svg = d3.select("#graph").append("svg")
 
 
 // load the data
-var data = films;
-d3.json(data).then(function(data){ 
+
+d3.json(films.results).then(function(data){ 
 
       //draw bars
       /**
