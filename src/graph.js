@@ -2,8 +2,7 @@ import series from '../data/popularTv.json'
 import films from '../data/popularMovie.json'
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import * as d3 from "d3";
 
 drawGraph2();
 
@@ -21,8 +20,6 @@ var x = d3.scaleBand()
 
 var y = d3.scaleLinear().range([height, 0]);
 
-
-// define the axis
 // define the axis
 var xAxis = d3.axisBottom(x)
 
@@ -41,7 +38,8 @@ var svg = d3.select("#graph").append("svg")
 
 // load the data
 
-d3.json(films.results).then(function(data){ 
+d3.json(films).then(function(data){ 
+  console.log(data)
 
       //draw bars
       /**
