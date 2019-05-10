@@ -13,8 +13,11 @@ Pour le moment via un curl > monjson
 
 # Visualisation des données
 ## - Comment vous avez visualisé les données
+un nuage de point qui montre les films populaires qui sont placés sur un axe qui montre leur niveaux de leur popularité par rapport à leurs notes moyenne des utilisateurs.
 ## - Une explication sur le choix du type de représentation
-
+Pour montrer un maximum d'information
 # But du projet
 ## - Ce que vous souhaitez démontrer
+Démontrer si il y a une influence sur les notes par rapport à la popularité du film ou de la série.
 ## - Le publique cible
+cinéphile et sériephile
