@@ -1,7 +1,4 @@
 {
-    "page": 1,
-  "total_results": 20000,
-  "total_pages": 1000,
   "results": [
     {
       "original_name": "Game of Thrones",
@@ -240,9 +237,7 @@
       ],
       "name": "Kenja no Mago",
       "popularity": 160.56,
-      "origin_country": [
-        
-      ],
+      "origin_country": [],
       "vote_count": 4,
       "first_air_date": "2019-04-10",
       "backdrop_path": "/1YOGJT4l1iIFbOVrNTFEo5vl3p.jpg",

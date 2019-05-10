@@ -1,9 +1,5 @@
 // problème pour récupérer la clef dans un autre fichier
-const config = {
-    API_KEY : "e0c090ad9289504f572875f449a5f944"
-}
-const API_KEY = config.API_KEY;
-
+import {API_KEY} from  "../data/config"
 
 // console.log("je suis chargé")
 
