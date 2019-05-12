@@ -400,6 +400,412 @@
       "adult": false,
       "overview": "Pete et Ellie veulent devenir une famille. En adoptant trois frères et sœurs, dont une adolescente rebelle de 15 ans, Pete et Ellie réalisent très vite qu’ils n’étaient pas préparés à devenir parents du jour au lendemain ! Leur parentalité « instantanée » va les placer dans des situations inattendues, émouvantes et souvent hilarantes.",
       "release_date": "2018-11-16"
+    },{
+      "vote_count": 4,
+      "id": 566555,
+      "video": false,
+      "vote_average": 6.5,
+      "title": "Detective Conan : the fist of blue sapphire",
+      "popularity": 87.641,
+      "poster_path": "/1GyvpwvgswOrHvxjnw2FBLNkTyo.jpg",
+      "original_language": "ja",
+      "original_title": "名探偵コナン 紺青の拳（フィスト）",
+      "genre_ids": [
+        16,
+        28,
+        18,
+        9648,
+        35
+      ],
+      "backdrop_path": "/wf6VDSi4aFCZfuD8sX8JAKLfJ5m.jpg",
+      "adult": false,
+      "overview": "",
+      "release_date": "2019-04-12"
+    },
+    {
+      "vote_count": 1112,
+      "id": 329996,
+      "video": false,
+      "vote_average": 6.6,
+      "title": "Dumbo",
+      "popularity": 85.508,
+      "poster_path": "/ttN0czDnCpr64aj3ANGEf3DKE1L.jpg",
+      "original_language": "en",
+      "original_title": "Dumbo",
+      "genre_ids": [
+        12,
+        10751,
+        14
+      ],
+      "backdrop_path": "/5tFt6iuGnKapHl5tw0X0cKcnuVo.jpg",
+      "adult": false,
+      "overview": "Holt Farrier, une ancienne star du cirque, voit sa vie changer au retour de la guerre. Le gérant Max Medici engage le père de famille pour s'occuper de leur nouveau éléphanteau, Dumbo, dont les larges oreilles sont déjà une source de moquerie auprès des visiteurs. Mais quand les enfants de Holt découvrent que l'éléphant peut voler, l'entrepreneur très persuasif V.A. Vandevere et la trapéziste Colette Marchant entrent en piste afin de faire de Dumbo une véritable star.",
+      "release_date": "2019-03-27"
+    },
+    {
+      "vote_count": 12108,
+      "id": 263115,
+      "video": false,
+      "vote_average": 7.8,
+      "title": "Logan",
+      "popularity": 84.552,
+      "poster_path": "/5HB2SsrYNARm4Kom7Amwyb93O4M.jpg",
+      "original_language": "en",
+      "original_title": "Logan",
+      "genre_ids": [
+        28,
+        18,
+        878
+      ],
+      "backdrop_path": "/5pAGnkFYSsFJ99ZxDIYnhQbQFXs.jpg",
+      "adult": false,
+      "overview": "Dans un futur proche, un certain Logan, épuisé de fatigue, s’occupe d’un Professeur X souffrant, dans un lieu gardé secret à la frontière Mexicaine. Mais les tentatives de Logan pour se retrancher du monde et rompre avec son passé vont s’épuiser lorsqu’une jeune mutante traquée par de sombres individus va se retrouver soudainement face à lui.",
+      "release_date": "2017-02-28"
+    },
+    {
+      "vote_count": 12226,
+      "id": 283995,
+      "video": false,
+      "vote_average": 7.7,
+      "title": "Les Gardiens de la Galaxie Vol. 2",
+      "popularity": 83.75,
+      "poster_path": "/8Xo5iajzeK1PYeidHK2PPsgli2x.jpg",
+      "original_language": "en",
+      "original_title": "Guardians of the Galaxy Vol. 2",
+      "genre_ids": [
+        28,
+        12,
+        35,
+        878
+      ],
+      "backdrop_path": "/aJn9XeesqsrSLKcHfHP4u5985hn.jpg",
+      "adult": false,
+      "overview": "Avec en toile de fond l’Awesome Mixtape #2, Les Gardiens de la Galaxie Vol. 2 poursuit les aventures de l’équipe alors qu’ils traversent les confins du cosmos. Les Gardiens doivent se battre pour que leur nouvelle famille reste ensemble tandis qu’ils cherchent à percer le mystère de la véritable filiation de Star-Lord. De vieux ennemis deviennent de nouveaux alliés et des personnages appréciés des fans, issus des comics, viennent en aide à nos héros alors que l’Univers Cinématographique Marvel continue de se développer.",
+      "release_date": "2017-04-19"
+    },
+    {
+      "vote_count": 167,
+      "id": 532671,
+      "video": false,
+      "vote_average": 5.9,
+      "title": "The Prodigy",
+      "popularity": 80.997,
+      "poster_path": "/yyejodyk3lWncVjVhhrEkPctY9o.jpg",
+      "original_language": "en",
+      "original_title": "The Prodigy",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "backdrop_path": "/oxTgovZ3TQ8LLxifUm16ROMULP5.jpg",
+      "adult": false,
+      "overview": "Une mère, Sarah, s'occupe de son fils mentalement perturbé, Miles. Il pense que le diable a pris possession de son corps. Pour sa sécurité et celle de sa famille, Sarah va devoir lutter contre son instinct maternel et chercher à comprendre pourquoi son fils s'est tourné vers les forces occultes.",
+      "release_date": "2019-02-06"
+    },
+    {
+      "vote_count": 17612,
+      "id": 118340,
+      "video": false,
+      "vote_average": 7.9,
+      "title": "Les Gardiens de la Galaxie",
+      "popularity": 78.022,
+      "poster_path": "/dNjU7iyH8X5FmTYNYiC9DwqlsiS.jpg",
+      "original_language": "en",
+      "original_title": "Guardians of the Galaxy",
+      "genre_ids": [
+        28,
+        878,
+        12
+      ],
+      "backdrop_path": "/bHarw8xrmQeqf3t8HpuMY7zoK4x.jpg",
+      "adult": false,
+      "overview": "Peter Quill est un aventurier traqué par tous les chasseurs de primes pour avoir volé un mystérieux globe convoité par le puissant Ronan, dont les agissements menacent l’univers tout entier. Lorsqu’il découvre le véritable pouvoir de ce globe et la menace qui pèse sur la galaxie, il conclut une alliance fragile avec quatre aliens disparates : Rocket, un raton laveur fin tireur, Groot, un humanoïde semblable à un arbre, l’énigmatique et mortelle Gamora, et Drax le Destructeur, qui ne rêve que de vengeance. En les ralliant à sa cause, il les convainc de livrer un ultime combat aussi désespéré soit-il pour sauver ce qui peut encore l’être…",
+      "release_date": "2014-07-30"
+    },
+    {
+      "vote_count": 525,
+      "id": 500682,
+      "video": false,
+      "vote_average": 6.7,
+      "title": "The Highwaymen",
+      "popularity": 77.495,
+      "poster_path": "/sM9epAfI10ztXVuQ9Za8SiJn8bf.jpg",
+      "original_language": "en",
+      "original_title": "The Highwaymen",
+      "genre_ids": [
+        80,
+        18,
+        53
+      ],
+      "backdrop_path": "/pZ78ksjPlXf3q2EeONN8WdHE03Y.jpg",
+      "adult": false,
+      "overview": "La traque de Bonnie Parker et Clyde Barrow par les deux enquêteurs légendaires Frank Hamer et Maney Gault. Devant l'impuissance des techniques d'enquête de l'époque et du FBI, les deux Texas Rangers sortent de leur retraite et s'en remettent à leur instinct et leurs méthodes traditionnelles pour arrêter les criminels les plus recherchés d'Amérique. Si les hors-la-loi ont fait les gros titres, les hommes de loi sont entrés dans l'Histoire.",
+      "release_date": "2019-03-15"
+    },
+    {
+      "vote_count": 5800,
+      "id": 297802,
+      "video": false,
+      "vote_average": 6.8,
+      "title": "Aquaman",
+      "popularity": 76.997,
+      "poster_path": "/mODmCg1OpvGbDKHq15Mlf9sfaAY.jpg",
+      "original_language": "en",
+      "original_title": "Aquaman",
+      "genre_ids": [
+        12,
+        14
+      ],
+      "backdrop_path": "/9QusGjxcYvfPD1THg6oW3RLeNn7.jpg",
+      "adult": false,
+      "overview": "Personnage légendaire depuis 70 ans, Aquaman est le Roi des Sept Mers, régnant à contrecœur sur Atlantis. Pris en étau entre les Terriens qui détruisent constamment la mer et les habitants d'Atlantis prêts à se révolter, Aquaman doit protéger la planète tout entière…",
+      "release_date": "2018-12-07"
+    },
+    {
+      "vote_count": 338,
+      "id": 457799,
+      "video": false,
+      "vote_average": 7.1,
+      "title": "Extremely Wicked, Shockingly Evil and Vile",
+      "popularity": 76.921,
+      "poster_path": "/zSuJ3r5zr5T26tTxyygHhgkUAIM.jpg",
+      "original_language": "en",
+      "original_title": "Extremely Wicked, Shockingly Evil and Vile",
+      "genre_ids": [
+        53,
+        80,
+        18,
+        36
+      ],
+      "backdrop_path": "/5yXNf13ly6kFQSbI5BZRQlDhCib.jpg",
+      "adult": false,
+      "overview": "Une chronique des crimes commis par Ted Bundy selon le point de vue de Liz, sa petite-amie de longue date, qui refusa de croire la vérité pendant des années.",
+      "release_date": "2019-05-02"
+    },
+    {
+      "vote_count": 8,
+      "id": 468224,
+      "video": false,
+      "vote_average": 4.9,
+      "title": "Tolkien",
+      "popularity": 76.725,
+      "poster_path": "/5ElXRKi773koW0mAnRjpNTpgZXZ.jpg",
+      "original_language": "en",
+      "original_title": "Tolkien",
+      "genre_ids": [
+        18
+      ],
+      "backdrop_path": "/wdw0KYwlIVu1VxESXFWM1x2z1dz.jpg",
+      "adult": false,
+      "overview": "Revient sur la jeunesse et les années d’apprentissage du célèbre auteur J.R.R. Tolkien. Orphelin, il trouve l’amitié, l’amour et l’inspiration au sein d’un groupe de camarades de son école. Mais la Première Guerre Mondiale éclate et menace de détruire cette « communauté ». Ce sont toutes ces expériences qui vont inspirer Tolkien dans l’écriture de ses romans de la Terre du Milieu \"Bilbo le Hobbit\" et \"Le Seigneur des Anneaux\".",
+      "release_date": "2019-05-03"
+    },
+    {
+      "vote_count": 11111,
+      "id": 284053,
+      "video": false,
+      "vote_average": 7.5,
+      "title": "Thor : Ragnarok",
+      "popularity": 76.512,
+      "poster_path": "/pNLGDvsJyTRdjVUJdc4iy6BQYK5.jpg",
+      "original_language": "en",
+      "original_title": "Thor: Ragnarok",
+      "genre_ids": [
+        28,
+        12,
+        35,
+        14
+      ],
+      "backdrop_path": "/kaIfm5ryEOwYg8mLbq8HkPuM1Fo.jpg",
+      "adult": false,
+      "overview": "Thor est emprisonné de l’autre côté de l’univers sans son puissant marteau et se retrouve engagé dans une course contre le temps pour rejoindre Asgard et arrêter Ragnarok – la destruction de son monde natal et la fin de la civilisation Asgardienne – des mains d’une toute nouvelle menace, l’impitoyable Hela. Mais d’abord, il doit survivre à une compétition meurtrière de gladiateurs qui l’oppose à son ancien allié et compagnon Avenger – l’Incroyable Hulk !",
+      "release_date": "2017-10-25"
+    },
+    {
+      "vote_count": 3674,
+      "id": 324857,
+      "video": false,
+      "vote_average": 8.4,
+      "title": "Spider-Man : New Generation",
+      "popularity": 76.067,
+      "poster_path": "/8qbeMv6ZzzvUQCaeGWBM9UF4AaV.jpg",
+      "original_language": "en",
+      "original_title": "Spider-Man: Into the Spider-Verse",
+      "genre_ids": [
+        28,
+        12,
+        16,
+        878,
+        35
+      ],
+      "backdrop_path": "/uUiId6cG32JSRI6RyBQSvQtLjz2.jpg",
+      "adult": false,
+      "overview": "SPIDER-MAN : NEW GENERATION présente Miles Morales, un adolescent vivant à Brooklyn, et révèle les possibilités illimitées du Spider-Verse, un univers où plus d’un peut porter le masque…",
+      "release_date": "2018-12-07"
+    },
+    {
+      "vote_count": 113,
+      "id": 535167,
+      "video": false,
+      "vote_average": 6.3,
+      "title": "The Wandering Earth",
+      "popularity": 74.854,
+      "poster_path": "/yzqpJcJT79CLTNdZVU7HHee6L3a.jpg",
+      "original_language": "zh",
+      "original_title": "The Wandering Earth",
+      "genre_ids": [
+        878,
+        28,
+        18
+      ],
+      "backdrop_path": "/m5OlkBJZKTlMGJUaxMDINplKBRp.jpg",
+      "adult": false,
+      "overview": "Un groupe d’astronaute doit trouver une nouvelle planète pour l’humanité, le soleil étant en train de mourir.",
+      "release_date": "2019-02-05"
+    },
+    {
+      "vote_count": 2237,
+      "id": 424783,
+      "video": false,
+      "vote_average": 6.4,
+      "title": "Bumblebee",
+      "popularity": 72.231,
+      "poster_path": "/jAWcwnGUhDn9SGSjhDFAbWmh9A7.jpg",
+      "original_language": "en",
+      "original_title": "Bumblebee",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "backdrop_path": "/wtZj5nn6hVwgakPdg6y6gm3eFXU.jpg",
+      "adult": false,
+      "overview": "1987 - Alors qu'il est en fuite, l'Autobot Bumblebee trouve refuge dans la décharge d'une petite ville balnéaire de Californie. Il est découvert, brisé et couvert de blessures de guerre, par Charlie, une ado qui approche de ses 18 ans et cherche sa place dans le monde. Et quand elle le met en marche, elle se rend vite compte qu'il ne s'agit pas d'une voiture jaune ordinaire.",
+      "release_date": "2018-12-15"
+    },
+    {
+      "vote_count": 1961,
+      "id": 399579,
+      "video": false,
+      "vote_average": 6.6,
+      "title": "Alita : Battle Angel",
+      "popularity": 71.287,
+      "poster_path": "/rV3itKLEALozktTGOCd1EE9vjG6.jpg",
+      "original_language": "en",
+      "original_title": "Alita: Battle Angel",
+      "genre_ids": [
+        28,
+        878,
+        53,
+        12
+      ],
+      "backdrop_path": "/aQXTw3wIWuFMy0beXRiZ1xVKtcf.jpg",
+      "adult": false,
+      "overview": "Au vingt-sixième siècle, un scientifique sauve Alita, une jeune cyborg inerte abandonnée dans une décharge. Ramenée à la vie, elle doit découvrir le mystère de ses origines et le monde complexe dans lequel elle se trouve, afin de protéger ses nouveaux amis contre les forces sombres lancées à sa poursuite.",
+      "release_date": "2019-01-31"
+    },
+    {
+      "vote_count": 251,
+      "id": 480414,
+      "video": false,
+      "vote_average": 5.5,
+      "title": "La Malédiction de la Dame Blanche",
+      "popularity": 70.137,
+      "poster_path": "/xLF5xA1ehNnWLj9p9PdbM7LH8oi.jpg",
+      "original_language": "en",
+      "original_title": "The Curse of La Llorona",
+      "genre_ids": [
+        53,
+        27,
+        9648
+      ],
+      "backdrop_path": "/u2vGggeMPAkhEtD7bYGfeThsQiM.jpg",
+      "adult": false,
+      "overview": "Quand elle était en vie, elle a noyé ses enfants dans un accès de folle jalousie, puis, dévastée par le chagrin, elle s'est jetée dans le fleuve déchaîné.  Désormais, ses larmes sont devenues éternelles. Elles sont même mortelles et tous ceux qui entendent ses appels sinistres la nuit sont maudits. Tapie dans l'ombre, la \"Llorana\" s'attaque aux enfants, cherchant désespérément à remplacer les siens. Au fil des siècles, elle est devenue de plus en plus prédatrice… et ses méthodes de plus en plus terrifiantes.  Los Angeles, années 1970. La Llorana hante la nuit… et les enfants.  Ignorant les avertissements d'une mère soupçonnée de violence sur mineurs, une assistante sociale et ses enfants sont projetés dans un monde surnaturel des plus effrayants. Pour espérer survivre à la fureur mortelle de la Llorana, leur seul recours est un prêtre désabusé et ses pratiques mystiques destinées à repousser les forces du mal… à la frontière où la peur et la foi se rencontrent…",
+      "release_date": "2019-04-17"
+    },
+    {
+      "vote_count": 12544,
+      "id": 1771,
+      "video": false,
+      "vote_average": 6.9,
+      "title": "Captain America : First Avenger",
+      "popularity": 69.509,
+      "poster_path": "/l1SP3gyHA5ZEuf72WKx5ihtZZFO.jpg",
+      "original_language": "en",
+      "original_title": "Captain America: The First Avenger",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "backdrop_path": "/pmZtj1FKvQqISS6iQbkiLg5TAsr.jpg",
+      "adult": false,
+      "overview": "1941, la Seconde Guerre Mondiale fait rage. Après avoir tenté vainement de s'engager dans l'armée pour se battre aux côtés des Alliés, Steve Rogers, frêle et timide, se porte volontaire pour participer à un programme expérimental qui va le transformer en un Super Soldat connu sous le nom de Captain America. Sous le commandement du colonel Chester Phillips, il s'apprête à affronter HYDRA, l'organisation scientifique secrète des nazis dirigée par le redoutable Crâne Rouge, aux côtés de Bucky Barnes et Peggy Carter...",
+      "release_date": "2011-07-22"
+    },
+    {
+      "vote_count": 6004,
+      "id": 363088,
+      "video": false,
+      "vote_average": 7,
+      "title": "Ant-Man et la Guêpe",
+      "popularity": 68.539,
+      "poster_path": "/r3Vapr4sdXOhHBThTNtfuijKe5V.jpg",
+      "original_language": "en",
+      "original_title": "Ant-Man and the Wasp",
+      "genre_ids": [
+        28,
+        12,
+        878,
+        35,
+        10751
+      ],
+      "backdrop_path": "/6P3c80EOm7BodndGBUAJHHsHKrp.jpg",
+      "adult": false,
+      "overview": "Après les événements survenus dans Captain America : Civil War, Scott Lang a bien du mal à concilier sa vie de super-héros et ses responsabilités de père. Mais ses réflexions sur les conséquences de ses choix tournent court lorsque Hope van Dyne et le Dr Hank Pym lui confient une nouvelle mission urgente... Scott va devoir renfiler son costume et apprendre à se battre aux côtés de La Guêpe afin de faire la lumière sur des secrets enfouis de longue date...",
+      "release_date": "2018-07-04"
+    },
+    {
+      "vote_count": 53,
+      "id": 500852,
+      "video": false,
+      "vote_average": 6.4,
+      "title": "Miss Bala",
+      "popularity": 68.235,
+      "poster_path": "/ae9yrSAS7nLZPbbkOm61pSuIqeo.jpg",
+      "original_language": "en",
+      "original_title": "Miss Bala",
+      "genre_ids": [
+        53,
+        28,
+        18
+      ],
+      "backdrop_path": "/5OoR3aVpxXluSCe9P5mhqOa36Gb.jpg",
+      "adult": false,
+      "overview": "Après la disparition de son amie à Tijuana, Gloria Meyer se retrouve au centre d'un jeu dangereux joué par la CIA, la DEA et un chef de gang.",
+      "release_date": "2019-02-01"
+    },
+    {
+      "vote_count": 46,
+      "id": 390634,
+      "video": false,
+      "vote_average": 4.7,
+      "title": "Fate/stay night: Heaven's Feel II. lost butterfly",
+      "popularity": 67.564,
+      "poster_path": "/4tS0iyKQBDFqVpVcH21MSJwXZdq.jpg",
+      "original_language": "ja",
+      "original_title": "劇場版「Fate/stay night [Heaven's Feel] ⅠⅠ. lost butterfly」",
+      "genre_ids": [
+        16,
+        28,
+        14,
+        12
+      ],
+      "backdrop_path": "/2zKusjJZd8b2Cdk2C5K9dGFNWiJ.jpg",
+      "adult": false,
+      "overview": "",
+      "release_date": "2019-01-12"
     }
   ]
 }
