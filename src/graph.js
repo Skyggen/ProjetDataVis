@@ -7,6 +7,7 @@ import * as d3 from "d3";
 const margin = { top: 20, right: 0, bottom: 70, left: 80 }
 const width = 600 - margin.left - margin.right
 const height = 500 - margin.top - margin.bottom
+const movieInfo = document.querySelector("#movieInfo");
 
 const svg = d3.select("#graph").append("svg")
   .attr("width", width + margin.left + margin.right)
@@ -15,7 +16,7 @@ const svg = d3.select("#graph").append("svg")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // Define the div for the tooltip
-const div = d3.select("body").append("popup")
+const div = d3.select("body").append("movieInfo")
   .attr("class", "tooltip");
 
 // select movie
@@ -24,7 +25,7 @@ const selectMovie = document.querySelector("#graphMovie");
 if (selectMovie) {
   selectMovie.addEventListener("click", () => {
     var data = films
-    updateGraph(data);
+    updateGraph(data, true);
   })
 }
 
@@ -34,12 +35,14 @@ const selectShow = document.querySelector("#graphTvShow");
 if (selectShow) {
   selectShow.addEventListener("click", () => {
     var data = series
-    updateGraph(data);
+    updateGraph(data, false);
+    
   })
 }
 
 
-export function updateGraph(data) {
+export function updateGraph(data, fromFilm) {
+  
   svg.selectAll("*").remove();
   console.log(data)
   // set the range
@@ -50,7 +53,7 @@ export function updateGraph(data) {
   var y = d3.scaleLinear().range([height, 0]);
   const xScale = d3.scaleLinear().domain([0, 10]).range([0, width])
   const yScale = d3.scaleLinear().domain(d3.extent(data.results.map(d => d.popularity))).range([height, 0])
-
+ 
   const circles = svg.selectAll('circle')
     .data(data.results)
     .enter()
@@ -59,15 +62,20 @@ export function updateGraph(data) {
     .attr('cy', d => yScale(d.popularity))
     .attr('cx', d => xScale(d.vote_average))
     .on("mouseover", function (d) {
+      if (fromFilm) {
+        var title = d.title
+         }else{
+           var title = d.name
+         }
 
       div.transition()
         .duration(100)
-        .style("opacity", .9);
+        .style("opacity", 1);
       div.html(`<div class="card" style="width: 15rem;">
 					<img class="card-img-top" src="http://image.tmdb.org/t/p/w185/${d.poster_path}" onerror="this.onerror=null;this.src='https://societeirlande.com/wp-content/themes/consultix/images/no-image-found-360x260.png';">
 					
                     <div class="card-body">
-                    <h5 class="card-title">${d.title}</h5>
+                    <h5 class="card-title">${title}</h5>
                     <p class="card-text"><strong>VO:</strong> <span>${d.original_language} </span><strong>Note:</strong> <span>${d.vote_average} / 10</span></p>
                     <p class="card-text"><strong>Date de sortie:</strong> <span>${d.release_date}</span></p>
                     <p class="card-text"><strong>Détailles:</strong> <span>${d.overview}</span></p>
@@ -75,12 +83,12 @@ export function updateGraph(data) {
 			</div>
 			</div>`)
         .style("left", (d3.event.pageX) + "px")
-        .style("top", (d3.event.pageY - 100) + "px");
+        .style("top", (d3.event.pageY - 150) + "px");
     })
     .on("mouseout", function (d) {
       div.transition()
 
-        .duration(500)
+        .duration(100)
         .style("opacity", 0);
     });
 
@@ -98,7 +106,6 @@ export function updateGraph(data) {
     .attr("y", -80)
     .attr("dy", ".71em")
     .style("text-anchor", "end")
-    .text("Popularity");
 
   // add x axis
   svg.append("g")
@@ -108,9 +115,22 @@ export function updateGraph(data) {
     .attr("fill", "black")
     .selectAll("text")
     .style("text-anchor", "end")
-    .attr("dx", "-.8em")
-    .attr("dy", "-.55em")
-    .attr("transform", "rotate(-90)");
+    .attr("dx", "-.5em")
+    .attr("dy", "1.55em")
+    
+    svg.append("text")
+    .attr("x", 60)
+    .attr("y", 10)
+    .text("Vote")
+    .style("font-size", "15px")
+    .attr("alignment-baseline","middle")
 
+
+    svg.append("text")
+    .attr("x", 460)
+    .attr("y", 445)
+    .text("Vote")
+    .style("font-size", "15px")
+    .attr("alignment-baseline","middle")
 
 }
