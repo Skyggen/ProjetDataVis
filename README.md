@@ -21,3 +21,6 @@ Pour montrer un maximum d'information
 Démontrer si il y a une influence sur les notes par rapport à la popularité du film ou de la série.
 ## - Le publique cible
 cinéphile et sériephile
+
+# Screenshots
+[![Screenshot](https://i.ibb.co/w46XyPg/screencapture-127-0-0-1-8080-2019-05-12-22-36-19.png)](https://i.ibb.co/w46XyPg/screencapture-127-0-0-1-8080-2019-05-12-22-36-19.png "Screenshot")
