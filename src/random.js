@@ -39,17 +39,15 @@ function getRandomMovie(){
             //console.log(response);
 			const movie = response.data.results[randomResult];
 			const output = 
-			`<div class="smallCard">
+			`<div class="card">
 			<h2>${movie.title}</h2>
 			<div class="smallMovie">
-					<div class="smallCard_img">
+					<div class="card-img-top">
 						<img src="http://image.tmdb.org/t/p/w185/${movie.poster_path}" onerror="this.onerror=null;this.src='../images/imageNotFound.png';">
 					</div>
                     <div class="smallMovie_info">
-                    <p><strong>VO:</strong> <span>${movie.original_language}</span></p>
-						<p id="p_rating"><strong>Note:</strong> <span>${movie.vote_average} / 10</span> </p>
-                        <p><strong>Date de sortie:</strong> <span>${movie.release_date}</span></p>
-                        <p><strong>Détailles:</strong> <span>${movie.overview}</span></p>
+					<p class="card-text"><strong>VO:</strong> <span>${movie.original_language} </span><strong>Note:</strong> <span>${movie.vote_average}/10 </span><strong>Date de sortie:</strong> <span>${movie.release_date}</span> </p>
+					<p class="card-text"><strong>Détailles:</strong> <span>${movie.overview}</span></p>
 					</div>
 			</div>
 			</div>`;
@@ -90,17 +88,17 @@ function getRandomTvShow(){
 			//console.log(response);
 			const show = response.data.results[randomResult];
 			const output = 
-			`<div class="smallCard">
-			<h2>${show.name}</h2>
+			`<div class="card">
+			<h2 class="card-title">${show.name}</h2>
 			<div class="smallMovie">
-					<div class="smallCard_img">
+					<div class="card-img-top">
 						<img src="http://image.tmdb.org/t/p/w185/${show.poster_path}" onerror="this.onerror=null;this.src='../images/imageNotFound.png';">
 					</div>
 					<div class="smallMovie_info">
-                    <p><strong>VO:</strong> <span>${show.original_language}</span></p>
-						<p id="p_rating"><strong>Note:</strong> <span>${show.vote_average} / 10</span> </p>
-                        <p><strong>Date de sortie:</strong> <span>${show.first_air_date}</span></p>
-                        <p><strong>Détailles:</strong> <span>${show.overview}</span></p>
+                    <p></p>
+						<p id="p_rating"> </p>
+                        <p class="card-text"><strong>VO:</strong> <span>${show.original_language} </span><strong>Note:</strong> <span>${show.vote_average}/10 </span><strong>Date de sortie:</strong> <span>${show.first_air_date}</span></p>
+                        <p class="card-text"><strong>Détailles:</strong> <span>${show.overview}</span></p>
 					</div>
 			</div>
 			</div>`;

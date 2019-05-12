@@ -16,8 +16,7 @@ const svg = d3.select("#graph").append("svg")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // Define the div for the tooltip
-const div = d3.select("body").append("movieInfo")
-  .attr("class", "tooltip");
+//const div = d3.select("body").html("<div>hello</div>");
 
 // select movie
 const selectMovie = document.querySelector("#graphMovie");
@@ -36,13 +35,13 @@ if (selectShow) {
   selectShow.addEventListener("click", () => {
     var data = series
     updateGraph(data, false);
-    
+
   })
 }
 
 
 export function updateGraph(data, fromFilm) {
-  
+
   svg.selectAll("*").remove();
   console.log(data)
   // set the range
@@ -53,7 +52,7 @@ export function updateGraph(data, fromFilm) {
   var y = d3.scaleLinear().range([height, 0]);
   const xScale = d3.scaleLinear().domain([0, 10]).range([0, width])
   const yScale = d3.scaleLinear().domain(d3.extent(data.results.map(d => d.popularity))).range([height, 0])
- 
+
   const circles = svg.selectAll('circle')
     .data(data.results)
     .enter()
@@ -64,20 +63,22 @@ export function updateGraph(data, fromFilm) {
     .on("mouseover", function (d) {
       if (fromFilm) {
         var title = d.title
-         }else{
-           var title = d.name
-         }
+        var date = d.release_date
+        
+      } else {
+        var title = d.name
+        var date = d.first_air_date
+      }
 
-      div.transition()
-        .duration(100)
-        .style("opacity", 1);
-      div.html(`<div class="card" style="width: 15rem;">
-					<img class="card-img-top" src="http://image.tmdb.org/t/p/w185/${d.poster_path}" onerror="this.onerror=null;this.src='https://societeirlande.com/wp-content/themes/consultix/images/no-image-found-360x260.png';">
+
+      d3.select('#movieInfo').html(`<div class="card" style="width: 100%;">
+					
 					
                     <div class="card-body">
+                    <img  src="http://image.tmdb.org/t/p/w185/${d.poster_path}" onerror="this.onerror=null;this.src='https://societeirlande.com/wp-content/themes/consultix/images/no-image-found-360x260.png';">
                     <h5 class="card-title">${title}</h5>
-                    <p class="card-text"><strong>VO:</strong> <span>${d.original_language} </span><strong>Note:</strong> <span>${d.vote_average} / 10</span></p>
-                    <p class="card-text"><strong>Date de sortie:</strong> <span>${d.release_date}</span></p>
+                    <p class="card-text"><strong>VO:</strong> <span>${d.original_language} </span><strong>Note:</strong> <span>${d.vote_average}/10</span></p>
+                    <p class="card-text"><strong>Date de sortie:</strong> <span>${date}</span></p>
                     <p class="card-text"><strong>Détailles:</strong> <span>${d.overview}</span></p>
 					</div>
 			</div>
@@ -85,12 +86,7 @@ export function updateGraph(data, fromFilm) {
         .style("left", (d3.event.pageX) + "px")
         .style("top", (d3.event.pageY - 150) + "px");
     })
-    .on("mouseout", function (d) {
-      div.transition()
 
-        .duration(100)
-        .style("opacity", 0);
-    });
 
   // define the axis
   var xAxis = d3.axisBottom(xScale)
@@ -117,20 +113,21 @@ export function updateGraph(data, fromFilm) {
     .style("text-anchor", "end")
     .attr("dx", "-.5em")
     .attr("dy", "1.55em")
-    
-    svg.append("text")
-    .attr("x", 60)
-    .attr("y", 10)
-    .text("Vote")
+
+  svg.append("text")
+    .attr("x", -60)
+    .attr("y", -40)
+    .attr("transform", "rotate(-90)")
+    .text("Popularité")
     .style("font-size", "15px")
-    .attr("alignment-baseline","middle")
+    .attr("alignment-baseline", "middle")
 
 
-    svg.append("text")
-    .attr("x", 460)
-    .attr("y", 445)
+  svg.append("text")
+    .attr("x", 490)
+    .attr("y", 450)
     .text("Vote")
     .style("font-size", "15px")
-    .attr("alignment-baseline","middle")
+    .attr("alignment-baseline", "middle")
 
 }
