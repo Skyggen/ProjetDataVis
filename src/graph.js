@@ -15,8 +15,10 @@ const svg = d3.select("#graph").append("svg")
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-// Define the div for the tooltip
-//const div = d3.select("body").html("<div>hello</div>");
+// démarrage avec valeur
+var data = films
+updateGraph(data, true);
+
 
 // select movie
 const selectMovie = document.querySelector("#graphMovie");
@@ -39,7 +41,6 @@ if (selectShow) {
   })
 }
 
-
 export function updateGraph(data, fromFilm) {
 
   svg.selectAll("*").remove();
@@ -57,31 +58,33 @@ export function updateGraph(data, fromFilm) {
     .data(data.results)
     .enter()
     .append('circle')
-    .attr('r', 10)
+    .attr('r', 5)
+    .attr("stroke", "#4285F4")
+    .attr("stroke-width", "2px")
     .attr('cy', d => yScale(d.popularity))
     .attr('cx', d => xScale(d.vote_average))
     .on("mouseover", function (d) {
       if (fromFilm) {
         var title = d.title
         var date = d.release_date
-        
+
       } else {
         var title = d.name
         var date = d.first_air_date
       }
+      if (d.overview == "") {
+        d.overview = "Aucune information disponible"
+      }
 
-
-      d3.select('#movieInfo').html(`<div class="card" style="width: 100%;">
-					
-					
-                    <div class="card-body">
-                    <img  src="http://image.tmdb.org/t/p/w185/${d.poster_path}" onerror="this.onerror=null;this.src='https://societeirlande.com/wp-content/themes/consultix/images/no-image-found-360x260.png';">
-                    <h5 class="card-title">${title}</h5>
-                    <p class="card-text"><strong>VO:</strong> <span>${d.original_language} </span><strong>Note:</strong> <span>${d.vote_average}/10</span></p>
-                    <p class="card-text"><strong>Date de sortie:</strong> <span>${date}</span></p>
-                    <p class="card-text"><strong>Détailles:</strong> <span>${d.overview}</span></p>
-					</div>
-			</div>
+      d3.select('#movieInfo').html(`
+      <div class="card" style="width: 100%;">
+          <div class="card-body">
+            <img  src="http://image.tmdb.org/t/p/w185/${d.poster_path}" onerror="this.onerror=null;this.src='https://societeirlande.com/wp-content/themes/consultix/images/no-image-found-360x260.png';">
+            <h5 class="card-title">${title}</h5>
+            <p class="card-text"><strong>VO:</strong> <span>${d.original_language} </span><strong>Note:</strong> <span>${d.vote_average}/10</span></p>
+            <p class="card-text"><strong>Date de sortie:</strong> <span>${date}</span></p>
+            <p class="card-text"><strong>Détailles:</strong> <span>${d.overview}</span></p>
+			    </div>
 			</div>`)
         .style("left", (d3.event.pageX) + "px")
         .style("top", (d3.event.pageY - 150) + "px");
@@ -122,11 +125,10 @@ export function updateGraph(data, fromFilm) {
     .style("font-size", "15px")
     .attr("alignment-baseline", "middle")
 
-
   svg.append("text")
-    .attr("x", 490)
+    .attr("x", 480)
     .attr("y", 450)
-    .text("Vote")
+    .text("Note")
     .style("font-size", "15px")
     .attr("alignment-baseline", "middle")
 
