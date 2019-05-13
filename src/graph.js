@@ -52,7 +52,8 @@ export function updateGraph(data, fromFilm) {
 
   var y = d3.scaleLinear().range([height, 0]);
   const xScale = d3.scaleLinear().domain([0, 10]).range([0, width])
-  const yScale = d3.scaleLinear().domain(d3.extent(data.results.map(d => d.popularity))).range([height, 0])
+  const yScale = d3.scaleLinear().domain(d3.extent(data.results.map(d => d.popularity-10))).range([height, 0])
+
 
   const circles = svg.selectAll('circle')
     .data(data.results)
@@ -94,12 +95,12 @@ export function updateGraph(data, fromFilm) {
   // define the axis
   var xAxis = d3.axisBottom(xScale)
   var yAxis = d3.axisLeft(yScale)
+.ticks(10);
 
   //add y axis
   svg.append("g")
     .attr("class", "y axis")
     .call(yAxis)
-    .attr("fill", "black")
     .append("text")
     .attr("transform", "rotate(-90)")
     .attr("y", -80)
@@ -111,7 +112,6 @@ export function updateGraph(data, fromFilm) {
     .attr("class", "x axis")
     .attr("transform", "translate(0," + height + ")")
     .call(xAxis)
-    .attr("fill", "black")
     .selectAll("text")
     .style("text-anchor", "end")
     .attr("dx", "-.5em")
